@@ -7,7 +7,7 @@ addons:
 before_install:
     - rvm install 2.3.8
     - gem install faraday -v 0.17.4
-    - gem install faraday-em_http -v 0.17.4
+    - gem install faraday-em_http -v 1.0
     - gem install dropbox-deployment
 script:
     - xmlstarlet val -e FightClub5eXML/Sources/*.xml
